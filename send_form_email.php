@@ -5,8 +5,7 @@
     $from = 'From: TangledDemo'; 
     $to = 'shaque98@hotmail.co.uk'; 
     $subject = 'Hello';
-?>
-<?php
+
 if ($_POST['submit']) {
     if (mail ($to, $subject, $body, $from)) { 
         echo '<p>Your message has been sent!</p>';
