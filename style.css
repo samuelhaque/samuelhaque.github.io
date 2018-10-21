@@ -1,0 +1,328 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-family: Arial, Helvetica, sans-sarif;
+	font-size: 18px;
+	line-height: 1.5;
+	background-color: #35424a; 
+	background: url('img/img6.jpg');
+
+}
+
+.container{
+	padding-top: 0%;
+	padding-bottom: 0%;
+	width:80%;
+	margin: auto;
+	overflow: hidden;
+}
+form label{
+	color:#ffffff;
+}
+
+form{
+	margin-left: auto;
+	margin-right: auto;
+	width: 32%;
+}
+
+tr{
+	padding-bottom: 1%;
+}
+
+header{
+	background-color: #BEBEBE;
+	color: #ffffff;
+	padding top: 2%;
+	min-height: 10%;
+	border-bottom: #ff0000 3px solid;
+
+}
+
+header a{
+	color: #000000;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 11px;
+
+
+}
+
+header ul{
+	margin: 0;
+	padding: 0;
+
+}
+
+
+header li{
+	float: left;
+	display inline;
+	padding: 0 20px 0 20px;
+	list-style-type: none;
+
+}
+.parent {
+  	float: left;
+	position: relative;
+}
+#branding{
+  position: relative;
+  top: 0;
+  left: 0;
+}
+#mugshot{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: 2;
+  animation: fadeIn 1s;
+
+}
+ 
+  @keyframes fadeIn {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+header #branding h1{
+	margin:0;
+}
+
+header nav{
+	float: right;
+	margin-top: 4%;
+	text-decoration: none;
+}
+
+header .current a{
+	color: #ff0000;
+	font-weight:bold;
+}
+
+header a:hover{
+	color: #f6f7f7;
+	
+}
+
+#section1{
+	padding-top: 15%;
+	padding-bottom: 15%;
+	text-align: center;
+	color: #ffffff;
+
+}
+
+#section1 h1{
+	margin-top: 0px;
+	font-size: 55px;
+	margin-bottom: 10px;
+}
+
+#section1 p{
+	font-size: 18px;
+
+}
+
+#section2{
+	padding-top: 5%;
+	padding-bottom: 5%;
+	color: #000000;
+	background: #BEBEBE;
+}
+
+#section2 h2{
+	text-align: center;
+}
+
+
+#section2 p{
+
+	text-align: center;
+}
+
+#section3{
+	padding-top: 10%;
+	padding-bottom: 10%;
+	font-size: 18px;
+	text-align: center;
+	color: #ffffff;
+}
+
+#section3 h2{
+	margin-bottom: 3%;
+	font-size: 40px;
+}
+#section3 p{
+	padding-top: 3%;
+	padding-bottom: 3%;
+}
+#section3 a{
+	text-decoration:none;
+	color: #ffffff;
+	font-size: 18px;
+	border:2px solid white;
+	border-radius:10px;
+	padding: 1%;
+	
+}
+
+#section3 a:hover{
+	border-radius:20px;
+	transition: 0.5s ease;
+	box-shadow: 0px 0px 70px 0px #ffffff;
+}
+
+/*#slideshow {
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  width: 70%;
+  padding: 15%;
+  overflow: hidden;
+ }
+#slideshow img{
+  position: absolute;
+  top: 5%;
+  left: 5%;
+  right: 5%;
+  bottom: 5%;
+  width: 30%;
+}
+
+.circleProjects{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    
+	padding: 3%;
+	overflow: hidden;
+}
+*/
+	#slideshow{
+		padding-top: 2%;
+		padding-bottom: 2%;
+		margin-left: auto;
+		margin-right: auto;
+		width: 90%;
+	}
+	#proj1{
+		width:45%;
+		margin-left: 4%;
+
+	}
+	#proj2{
+		width:45%;
+		padding-left: 2%;
+	}
+
+	#proj3{
+		width:45%;
+		padding-top: 2%;	
+		margin-left: 4%;
+	}
+
+footer{
+	padding: 1%;
+	color: #ffffff;
+	background-color: #ff0000;
+	text-align: center;
+	position: relative;
+	bottom: 0;
+	font-size: 10px;
+}
+
+@media(max-width: 768px){
+	header #branding,
+	header #mugshot,
+
+	header nav,
+	header nav li,
+	#section2 h1{
+		float: none;
+		text-align: center;
+		width: 100%;
+		
+
+	}
+	header .parent{
+		width: 100%;
+	}
+
+	#section1 {
+		padding-top: 250px;
+		background-position: -200px;
+		padding-bottom: 15%;
+	}
+
+	header{
+		padding-top: 20px;
+		padding-bottom: 20px;
+		position: fixed;
+		width:100%;
+		z-index: 2
+	}
+
+	/*#section h1{
+		margin-top: 20px;
+	}	*/
+
+	#section2{
+
+		padding-top: 20px;
+		padding-bottom: 40px;
+	}
+
+
+	.circleProjects{
+		padding-top: 250px;
+	}
+
+	header nav{
+	margin-top: 5%;
+	}
+	header li{
+		padding: 0;
+	}
+	#slideshow{
+		padding-top: 250px;
+		padding-bottom: 30%;
+	}
+	#slideshow img{
+		width:100%;
+		padding: 0;
+		margin-left: 0;
+
+	}
+
+	form{
+		padding-top: 250px;
+		width: 100%;
+		font-size: 9px;
+	}
+
+
+	/*#slideshow{
+		z-index: 1;
+		padding-bottom: 133%;
+		
+	}*/
+
+	/*#slideshow > div {
+  position: absolute;
+  top: 25%;
+  left: 5%;
+  right: 5%;
+  bottom: 5%;
+}*/
+
+
+	footer{
+		position: relative;
+	}
+
+}
