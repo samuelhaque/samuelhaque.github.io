@@ -239,6 +239,24 @@ header a:hover{
 		padding-top: 2%;	
 		margin-left: 4%;
 	}
+	#contactSection1{
+		width: 50%;
+		margin-left: 0%;
+		text-align: center;
+		color: #ffffff;
+		border-right: 3px;
+		border-color: #ffffff;
+		position: relative;
+		display: inline-block;
+	}
+	#contactSection2{
+		color: #ffffff;
+		float: right;
+		text-align: center;
+		width: 50%;
+		position: relative;
+		display: inline-block;
+	}
 
 footer{
 	padding: 1%;
