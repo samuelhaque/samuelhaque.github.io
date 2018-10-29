@@ -214,6 +214,7 @@ header a:hover{
 	}
 	#contactInfo{
 		margin-top: 5%;
+		margin-bottom: 4%;
 	}
 	#contactSection1{
 		width: 50%;
@@ -235,9 +236,11 @@ header a:hover{
 	}
 
 	#accountLinks{
-		padding-top: 0%;
-		padding-bottom: 17%;
+		padding-top: 4%;
+		padding-bottom: 26%;
 		width: 100%;
+		border-top: 1px solid white;
+		
 	}
 
 
@@ -261,6 +264,12 @@ header a:hover{
 		list-style: none;
 		font-size: 24px;
 		margin: 1%;
+	}
+
+	#accountLinks li a{
+		color: #ffffff;
+		text-decoration: none;
+
 	}
 
 footer{
@@ -350,7 +359,7 @@ footer{
 	}
 
 	#accountLinks ul{
-		
+		padding-bottom: 30%;
 		
 	}
 
