@@ -252,10 +252,12 @@ header a:hover{
 		display: flex;
 		color: #ffffff;
 		position: relative;
-		text-decoration: none;
+		
 	}
 
 	#accountLinks li{
+		color: #ffffff;
+		text-decoration: none;
 		list-style: none;
 		font-size: 24px;
 		margin: 1%;
