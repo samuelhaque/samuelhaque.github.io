@@ -1,4 +1,4 @@
-setTimeout(hideDiv, 1500);
+setTimeout(hideDiv, 1800);
 function hideDiv() {
 	document.getElementById("mugshot").style.display = "none";
 	}
